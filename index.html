@@ -1,0 +1,47 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Visual Brain</title>
+  <script src="http://cdn.bootcss.com/d3/4.2.2/d3.js"></script>
+  <script src="http://cdn.bootcss.com/jquery/3.1.0/jquery.js"></script>
+  <!-- <script src="http://d3js.org/d3.v3.js"></script> -->
+  <!-- <script src="lib/d3.js"></script> -->
+  <style>
+    html, body, #container {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      widows: 100%;
+    }
+    #container {
+      margin: 0 auto;
+      width: 1024px;
+    }
+    .link {
+      fill: none;
+      stroke: #555;
+      stroke-opacity: 0.3;
+      stroke-width: 1.5px;
+    }
+    .node circle {
+      stroke: #3bc;
+      fill: #fff;
+      stroke-width: 2.5px;
+      margin-left: 10px;
+    }
+    .node text {
+      font-family: 'Microsoft Yahei';
+      font-size: 14px;
+      cursor: default;
+    }
+    .node:hover text {
+      fill: #3bc;
+    }
+  </style>
+</head>
+<body>
+  <div id="container"></div>
+  <script src="js/tree.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

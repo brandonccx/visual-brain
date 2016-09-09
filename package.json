@@ -1,0 +1,25 @@
+{
+  "name": "visual-brain",
+  "version": "1.0.0",
+  "description": "The visualization of your knowledge and ablity",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonccx/visual-brain.git"
+  },
+  "keywords": [
+    "visualization"
+  ],
+  "author": "brandonccx@gmail.com",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/brandonccx/visual-brain/issues"
+  },
+  "homepage": "https://github.com/brandonccx/visual-brain#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
