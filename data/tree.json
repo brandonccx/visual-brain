@@ -1,139 +1,127 @@
 {
   "name": "Knowledge",
-  "depth": 0,
   "children": [{
     "name": "Language",
-    "depth": 1,
     "children": [{
       "name": "JavaScript",
-      "depth": 2
+      "proficiency": 95
     }, {
       "name": "JavaScript (ES6)",
-      "depth": 2
+      "proficiency": 60
     }, {
       "name": "NodeJS",
-      "depth": 2
+      "proficiency": 70
     }, {
       "name": "HTML/HTML5",
-      "depth": 2
+      "proficiency": 85
     }, {
       "name": "CSS/CSS3",
-      "depth": 2
+      "proficiency": 90
     }, {
       "name": "Golang",
-      "depth": 2
+      "proficiency": 30
     }, {
       "name": "PHP",
-      "depth": 2
+      "proficiency": 20
     }]
   }, {
     "name": "Framework/Library",
-    "depth": 1,
     "children": [{
       "name": "JQuery",
-      "depth": 2
+      "proficiency": 95
     }, {
       "name": "Angular",
-      "depth": 2
+      "proficiency": 80
     }, {
       "name": "React",
-      "depth": 2
+      "proficiency": 70
     }, {
       "name": "Vue",
-      "depth": 2
+      "proficiency": 60
     }, {
       "name": "Dojo",
-      "depth": 2
+      "proficiency": 20
     }, {
       "name": "Zepto",
-      "depth": 2
+      "proficiency": 90
     }]
   }, {
     "name": "Build",
-    "depth": 1,
     "children": [{
       "name": "Webpack",
-      "depth": 2
+      "proficiency": 60
     }, {
       "name": "Browserify",
-      "depth": 2
+      "proficiency": 70
     }, {
       "name": "Gulp",
-      "depth": 2
+      "proficiency": 90
     }, {
       "name": "Grunt",
-      "depth": 2
+      "proficiency": 80
     }, {
       "name": "Babel",
-      "depth": 2
+      "proficiency": 80
     }]
   }, {
     "name": "Test/QA",
-    "depth": 1,
     "children": [{
       "name": "Mocha",
-      "depth": 2
-    }, {
-      "name": "Mocha",
-      "depth": 2
+      "proficiency": 30
     }, {
       "name": "Karma",
-      "depth": 2
+      "proficiency": 20
     }, {
       "name": "Jasmine",
-      "depth": 2
+      "proficiency": 20
     }, {
       "name": "PhantomJS",
-      "depth": 2
+      "proficiency": 30
     }, {
       "name": "ESLint",
-      "depth": 2
+      "proficiency": 75
     }]
   }, {
     "name": "Web Server",
-    "depth": 1,
     "children": [{
       "name": "Express (Node)",
-      "depth": 2
+      "proficiency": 70
     }, {
       "name": "Koa (Node)",
-      "depth": 2
+      "proficiency": 40
     }, {
       "name": "Beego (Go)",
-      "depth": 2
+      "proficiency": 50
     }]
   }, {
     "name": "DataBase",
-    "depth": 1,
     "children": [{
       "name": "MySQL",
-      "depth": 2
+      "proficiency": 60
     }, {
       "name": "SQLite3",
-      "depth": 2
+      "proficiency": 60
     }]
   }, {
     "name": "Visualization/WebGL",
-    "depth": 1,
     "children": [{
       "name": "D3",
-      "depth": 2
+      "proficiency": 30
     }, {
       "name": "Cesium",
-      "depth": 2
+      "proficiency": 40
     }]
   }, {
     "name": "Style",
-    "depth": 1,
     "children": [{
       "name": "LESS",
-      "depth": 2
+      "proficiency": 90
     }, {
       "name": "SASS",
-      "depth": 2
+      "proficiency": 70
     }, {
       "name": "Compass",
-      "depth": 3
+      "proficiency": 40
     }]
   }]
 }
